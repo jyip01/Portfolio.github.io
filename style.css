@@ -12,8 +12,8 @@ body {
 }
 
 nav {
-  background-image: linear-gradient solid (to right, white , rgba(255, 192, 203, 0.733));
   background-color: white;
+  background-image: linear-gradient solid (to right, white , rgba(255, 192, 203, 0.733));
   font-family: 'Roboto', sans-serif;
   padding: 20px;
   position: fixed;
