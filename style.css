@@ -319,7 +319,7 @@ header {
 
 
 .card-block {
-  //display: flex;
+  display: flex;
   align-content: left;
   padding: 2em;
 }
