@@ -12,8 +12,10 @@ body {
 }
 
 nav {
-  background: rgba(255, 192, 203, 0.733);
-  background: linear-gradient (145deg, white , rgba(255, 192, 203, 0.733));
+  //background: rgba(255, 192, 203, 0.733);
+  //background: linear-gradient (145deg, white , rgba(255, 192, 203, 0.733));
+  background: rgb(247,235,224);
+  background: linear-gradient(90deg, rgba(247,235,224,1) 0%, rgba(235,189,151,1) 64%, rgba(223,181,147,1) 100%);
   font-family: 'Roboto', sans-serif;
   padding: 20px;
   position: fixed;
