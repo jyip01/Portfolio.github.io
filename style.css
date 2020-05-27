@@ -323,6 +323,7 @@ header {
 
 .card-block {
   display: flex;
+  flex-direction: column;
   align-content: left;
   padding: 2em;
 }
