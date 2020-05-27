@@ -319,8 +319,8 @@ header {
 
 
 .card-block {
-  display: flex;
-  align-content: flex-start;
+  //display: flex;
+  align-content: left;
   padding: 2em;
 }
 
