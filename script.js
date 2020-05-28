@@ -25,7 +25,7 @@ function showAbout() {
 
 // creates li for each nav item
 function createNav() {
-  var content = ["Keith Underwood", "Projects", "About"];
+  var content = ["Jessica Yip", "Projects", "About"];
   content.forEach(function(i) {
     var liItem = $("<li><a id='" + content.indexOf(i) +
       "' class='nav-link'>" + i + "</a></li>");
@@ -38,7 +38,7 @@ function createNav() {
 
 // animates and handles show/hide of content
 function navRouter(i) {
-  if (i.text() === "Keith Underwood") {
+  if (i.text() === "Jessica Yip") {
     navAnimation('#0');
     showDefine();
   } else if (i.text() === "Projects") {
