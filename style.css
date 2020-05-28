@@ -11,6 +11,7 @@ body {
   background-color:rgba(252, 246, 223, 0.932);
 }
 
+@media all and (min-width: 480px) {
 nav {
   background: rgb(247,235,224);
   background: linear-gradient(90deg, rgba(247,235,224,1) 0%, rgba(235,189,151,1) 64%, rgba(223,181,147,1) 100%);
@@ -345,9 +346,11 @@ header {
   color: #4b4b4b;
   height: 1.3em;
 }
+}
 
-//smaller screens
-@media all and (max-width: 800px) {
+
+//cutoff
+
   header {
     display: none;
   }
@@ -403,5 +406,3 @@ header {
   .card-block {
     padding: 1em;
   }
-
-}
