@@ -336,6 +336,7 @@ header {
 
 .card-footer {
   display: flex;
+  flex-direction: column;
 }
 
 .card-actions {
