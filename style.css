@@ -25,6 +25,13 @@ nav {
 
 nav a{
   font-size: 30px;
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+#home{
+  display: block;
+  align-content: flex-start;
 }
 
 a {
@@ -34,7 +41,9 @@ a {
 
 a:hover {
   cursor: pointer;
-  color: rgba(0, 0, 255, 0.466);
+  color: rgba(0, 0, 255, 0.37);
+  font-size: 32px;
+  font-weight: bold;
 }
 
 p{
@@ -61,11 +70,13 @@ h2{
   margin: 100px;
 }
 
-
 header {
   font-family: 'Sansita', sans-serif;
   font-size:45px;
-  padding: 15% 0px;
+  padding-top: 110px;
+  padding-bottom: 55px;
+  text-decoration: underline;
+  color: rgba(0, 0, 255, 0.466);
 }
 
 .hide {
@@ -225,7 +236,7 @@ header {
 }
 
 .social-links:hover {
-  color: #063B67;
+  color: rgba(0, 0, 255, 0.466);
 }
 
 .button-wrap {
@@ -240,7 +251,6 @@ header {
   background: #01213b;
   padding: 5px 16px;
   text-decoration: none;
-  border: none;
   min-width: 134px;
   border: 2px solid #01213b;
 }
@@ -258,7 +268,6 @@ header {
   background: #ffffff;
   padding: 5px 16px;
   text-decoration: none;
-  border: none;
   min-width: 134px;
   margin-left: 10px;
   border: 2px solid #01213b;
